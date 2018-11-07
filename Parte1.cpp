@@ -12,13 +12,11 @@ palavra apresentada com letras minúsculas ou maiúsculas, ou que estão adjacen
 serão diferenciadas.
 
 */
-//Vamos alterar essa parte para fazer um teste
 #include <iostream>
 #include <fstream>
 #include <string>
 #include <stdio.h>
 #include <ctype.h>
-//Comentarios 2
 using namespace std;
 
 int main() {
@@ -32,13 +30,11 @@ for(num_palavras=0; inputStream>>text;num_palavras++) // conta as palavras e reg
   for(int j = 0; j<text.length();j++){ // Transformar todas as letras maiusculas em minusculas
     text[j] = tolower(text[j]);
   }
-//cout <<   << endl;
 palavras[num_palavras]=text;
 
 }
 cout << palavras[4];
 
-//cout <<i;
 inputStream.close();
 return 0;
 }
