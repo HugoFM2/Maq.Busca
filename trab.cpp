@@ -2,7 +2,7 @@
 #include <fstream>  //lidar com arquivos
 #include <string>   //cadeia de caracteres
 #include <regex>    //ferramente para procurar o padr�o de palavras
-#include <stdio.h>  //necess�rio para tornar letras min�sculas
+#include <stdio.h>  //necessário para tornar letras min�sculas
 #include <ctype.h>  //idem
 #include <set>      //container que armazena apenas uma c�pia, n�o tem repeti��o
 #include <map>      //container do tipo key:value
@@ -16,7 +16,7 @@ int main(){
 	set <string> words;
 	smatch m;
 	map <string,string> summary;
-	regex pattern ("[a-zA-Z0-9]+-?[a-zA-Z0-9]*"); //esse � o padr�o para detectar n�meros e letras e possivelmente um h�fen no meio (palavras)
+	regex pattern ("[a-zA-Z0-9]+-?[a-zA-Z0-9]*"); //esse é o padrão para detectar números e letras e possivelmente um hífen no meio (palavras)
 
     cout<<"*** MAQUINA DE BUSCAS - THALLYS FELIPE GONCALVES BARBOSA - 2018080622 - PDS2 - TF1 ***\n\n\n";
     cout<<"-> DIGITE EM SEQUENCIA O NOME DOS ARQUIVOS QUE DESEJA INCLUIR, EM SEGUIDA DIGITE 0:\n\n";
