@@ -7,11 +7,10 @@ set <string> words;
 map <string,string> summary;
 
 
-    cout<<"*** MAQUINA DE BUSCAS***\n"
+    cout<<"*** MAQUINA DE BUSCAS ***\n"
 		 		<<"Autores:- THALLYS FELIPE GONCALVES BARBOSA - 2018080622 - PDS2 - TF1\n"
 				<<"	- HUGO FERREIRA MARQUES - 2018014573 - PDS2 - TF1\n\n\n"
-    		<<"-> DIGITE EM SEQUENCIA O NOME DOS ARQUIVOS QUE DESEJA INCLUIR, EM SEGUIDA DIGITE 0:\n\n";
-
+    		<<"-> DIGITE EM SEQUENCIA O NOME DOS ARQUIVOS QUE DESEJA INCLUIR, EM SEGUIDA DIGITE 0 PARA INICIAR A BUSCA:\n\n";
 
 	while (cin>>filename and filename != "0"){    //funciona enquanto nomes de arquivos estiverem sendo inseridos
 		AbrirArquivo(words,filename);
