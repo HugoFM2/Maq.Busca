@@ -2,11 +2,9 @@
 
 int main(){
 
-	int i = 0;
-	string filename,line, a, palavra,Palavra;
-	set <string> words;
-	smatch m;
-	map <string,string> summary;
+string filename,line, palavra, Palavra;
+set <string> words;
+map <string,string> summary;
 
 
     cout<<"*** MAQUINA DE BUSCAS***\n"
@@ -14,7 +12,7 @@ int main(){
 				<<"	- HUGO FERREIRA MARQUES - 2018014573 - PDS2 - TF1\n\n\n"
     		<<"-> DIGITE EM SEQUENCIA O NOME DOS ARQUIVOS QUE DESEJA INCLUIR, EM SEGUIDA DIGITE 0:\n\n";
 
-				
+
 	while (cin>>filename and filename != "0"){    //funciona enquanto nomes de arquivos estiverem sendo inseridos
 		AbrirArquivo(words,filename);
 		SubstituirSet(words);
