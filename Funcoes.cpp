@@ -34,3 +34,14 @@ void SubstituirSet(set <string> &words) {
 	words = temp;
 	temp.clear(); // deleta o set temporario
 }
+
+
+void SetToMap(set <string> words, map <string,string> &summary,string chave) {
+	for (set<string>::iterator i=words.begin(); i!=words.end(); ++i) {  //faz com que o iterator comece no in�cio do set e avance uma unidade por vez, at� o final
+			summary[*i] += chave + "\n";
+	}
+}
+
+void PrintMap( map <string,string> map,string chave) {
+	cout<<map[chave]<<endl;
+}
