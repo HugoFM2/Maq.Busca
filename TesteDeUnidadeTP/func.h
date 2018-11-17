@@ -1,6 +1,15 @@
-#include "Funcoes.h"
+#ifndef FUNC_H_INCLUDED
+#define FUNC_H_INCLUDED
 
-void AbrirArquivo(set <string> &words,string filename){
+#include <set>
+#include <string>
+#include <regex>
+#include <fstream>
+#include <map>
+
+using namespace std;
+
+void AbrirArquivo(set <string> &words, string filename){
 	try{ // parte protegia do codigo, caso o arquivo nao esteja aberto entra no catch
 	fstream file (filename);
 	string Palavra;
@@ -14,7 +23,7 @@ void AbrirArquivo(set <string> &words,string filename){
 }
 
 void SubstituirString(string &Palavra) {
-	regex pontuacao("(\\.|,|!|-|\\?)"); // detecta as pontuacoes
+	regex pontuacao("(\\.|,|0|1|2|3|4|5|6|7|8|9|!|-|\\$|\\@|\\&|\\*|\\%|\\#|\\+|\\_|\\?)"); // detecta as pontuacoes
 	Palavra = regex_replace(Palavra,pontuacao,""); // Remove pontuacao (ponto, virgula, hifen e exclamacao)
 	for(int j = 0; j<Palavra.length();j++){ // Transformar todas as letras maiusculas em minusculas
 		Palavra[j] = tolower(Palavra[j]);
@@ -35,7 +44,6 @@ void SubstituirSet(set <string> &words) {
 	temp.clear(); // deleta o set temporario
 }
 
-
 void SetToMap(set <string> words, map <string,string> &summary,string chave) {
 	for (set<string>::iterator i=words.begin(); i!=words.end(); ++i) {  //faz com que o iterator comece no inicio do set e avance uma unidade por vez, ate o final
 			summary[*i] += chave + "\n";
@@ -43,5 +51,6 @@ void SetToMap(set <string> words, map <string,string> &summary,string chave) {
 }
 
 void PrintMap( map <string,string> map,string chave) {
-	cout<<map[chave]<<endl; //printa na tela os documentos em relaÃ§ao a determinada chave
+	cout<<map[chave]<<endl; //printa na tela os documentos em relaçao a determinada chave
 }
+#endif // FUNC_H_INCLUDED
