@@ -14,7 +14,7 @@ void AbrirArquivo(set <string> &words,string filename){
 }
 
 void SubstituirString(string &Palavra) {
-	regex pontuacao("(\\.|,|!|-|\\?)"); // detecta as pontuacoes
+	regex pontuacao("(\\.|,|0|1|2|3|4|5|6|7|8|9|!|-|\\$|\\@|\\&|\\*|\\%|\\#|\\+|\\_|\\?)"); // detecta as pontuacoes
 	Palavra = regex_replace(Palavra,pontuacao,""); // Remove pontuacao (ponto, virgula, hifen e exclamacao)
 	for(int j = 0; j<Palavra.length();j++){ // Transformar todas as letras maiusculas em minusculas
 		Palavra[j] = tolower(Palavra[j]);
@@ -34,7 +34,6 @@ void SubstituirSet(set <string> &words) {
 	words = temp;
 	temp.clear(); // deleta o set temporario
 }
-
 
 void SetToMap(set <string> words, map <string,string> &summary,string chave) {
 	for (set<string>::iterator i=words.begin(); i!=words.end(); ++i) {  //faz com que o iterator comece no inicio do set e avance uma unidade por vez, ate o final

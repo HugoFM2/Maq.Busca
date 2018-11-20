@@ -15,8 +15,6 @@ using std::map;
 using std::fstream;
 using std::regex;
 
-
-
 void AbrirArquivo(set <string> &words,string filename); // Abre o arquivo e coloca todas as palavras em um set
 void SubstituirString(string &Palavra); // Formata a palavra para os parametros de busca
 void SubstituirSet(set <string> &words); // Formata o set inteiro com as palavras formatadas
