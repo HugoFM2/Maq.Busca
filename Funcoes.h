@@ -20,5 +20,5 @@ using std::regex;
 void AbrirArquivo(set <string> &words,string filename); // Abre o arquivo e coloca todas as palavras em um set
 void SubstituirString(string &Palavra); // Formata a palavra para os parametros de busca
 void SubstituirSet(set <string> &words); // Formata o set inteiro com as palavras formatadas
-void SetToMap(set <std::string> set, map <string,string> &map,string chave);// Converte o set em map, sendo as palavras do set o valor e a string chave a chave
-void PrintMap( map <std::string,string> map,string chave); // Imprime o valor dando-se sua chave
+void SetToMap(set <string> set, map <string,string> &map,string chave);// Converte o set em map, sendo as palavras do set o valor e a string chave a chave
+void PrintMap( map <string,string> map,string chave); // Imprime o valor dando-se sua chave
