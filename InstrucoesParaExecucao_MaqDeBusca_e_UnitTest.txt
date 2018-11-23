@@ -1,19 +1,19 @@
-INSTRU«’ES PARA EXECU«√O DA M¡QUINA DE BUSCA:
+INSTRU√á√ïES PARA EXECU√á√ÉO DA M√ÅQUINA DE BUSCA:
 
-O Programa Maquina de Busca foi desenvolvido de forma que fosse o mais simples para o usu·rio utiliz·-lo.
-Antes de executar o programa È necess·rio checar se o compilador tem suporte a vers„o C++11, visto que algumas bibliotecas (ex.: <regex>) precisam dela.
-ApÛs a verificaÁ„o da vers„o, o usu·rio precisa compilar o arquivo "trab.cpp".
-Uma janela de comandos se abrir· junto com as instruÁıes para a busca de certas palavras em certos arquivos.
-Na primeira etapa, È necess·rio que o usu·rio insira o nome do arquivo(com a extens„o incluÌda, exemplo: hamlet.txt, e o arquivo precisa estar no mesmo diretÛrio
+O Programa Maquina de Busca foi desenvolvido de forma que fosse o mais simples para o usu√°rio utiliz√°-lo.
+Antes de executar o programa √© necess√°rio checar se o compilador tem suporte a vers√£o C++11, visto que algumas bibliotecas (ex.: <regex>) precisam dela.
+Ap√≥s a verifica√ß√£o da vers√£o, o usu√°rio precisa compilar o arquivo "trab.cpp".
+Uma janela de comandos se abrir√° junto com as instru√ß√µes para a busca de certas palavras em certos arquivos.
+Na primeira etapa, √© necess√°rio que o usu√°rio insira o nome do arquivo(com a extens√£o inclu√≠da, exemplo: hamlet.txt, e o arquivo precisa estar no mesmo diret√≥rio
 do programa, no caso o arquivo trab.cpp) e caso ele deseja incluir novos arquivos
-digitar enter e inserir o nome do outro arquivo. Quando ele desejar iniciar a busca, È necess·rio digitar 0 e enter.
-Nessa prÛxima etapa, o usu·rio precisa digitar as palavras que deseja buscar.
-Existem algumas restriÁıes enquanto a busca, as palavras precisam ser enviadas uma a uma, n„o podem incluir nenhuma pontuaÁ„o/acento(exemplo, se vocÍ deseja
-procurar pela palavra "Guarda-Chuva" dever· digitar no campo de busca a palavra "guardachuva". ApÛs cada inserÁ„o de palavra o usu·rio apertar· a tecla
-enter e, caso deseja procurar uma nova palavra inseri-la seguindo as mesmas instruÁıes da primeira e, caso deseja encerrar o programa, dever· apenas fecha-lo.
+digitar enter e inserir o nome do outro arquivo. Quando ele desejar iniciar a busca, √© necess√°rio digitar 0 e enter.
+Nessa pr√≥xima etapa, o usu√°rio precisa digitar as palavras que deseja buscar.
+Existem algumas restri√ß√µes enquanto a busca, as palavras precisam ser enviadas uma a uma, n√£o podem incluir nenhuma pontua√ß√£o/acento(exemplo, se voc√™ deseja
+procurar pela palavra "Guarda-Chuva" dever√° digitar no campo de busca a palavra "guardachuva"). Ap√≥s cada inser√ß√£o de palavra o usu√°rio apertar√° a tecla
+enter e, caso deseja procurar uma nova palavra inseri-la seguindo as mesmas instru√ß√µes da primeira e, caso deseja encerrar o programa, dever√° apenas fecha-lo.
 
-INSTRU«’ES PARA EXECU«√O DO TESTE DE UNIDADE:
+INSTRU√á√ïES PARA EXECU√á√ÉO DO TESTE DE UNIDADE:
 
-Para executar o teste de unidade È necess·rio que o usu·rio tenha instalado o Framework CppUnit, para instal·-lo deve-se seguir as instruÁıes do seguinte link (para Code::Blocks):
+Para executar o teste de unidade √© necess√°rio que o usu√°rio tenha instalado o Framework CppUnit, para instal√°-lo deve-se seguir as instru√ß√µes do seguinte link (para Code::Blocks):
 https://stackoverflow.com/questions/41924136/what-are-beginners-steps-for-cppunit-in-codeblocks
-ApÛs isso deve-se abrir o projeto e apenas executar a main.cpp, todos os testes construÌdos em cima do header func.h j· est„o funcionando perfeitamente.
+Ap√≥s isso deve-se abrir o projeto e apenas executar a main.cpp, todos os testes constru√≠dos em cima do header func.h j√° est√£o funcionando perfeitamente.
