@@ -8,7 +8,7 @@ Na primeira etapa, é necessário que o usuário insira o nome do arquivo(com a 
 do programa, no caso o arquivo trab.cpp) e caso ele deseja incluir novos arquivos
 digitar enter e inserir o nome do outro arquivo. Quando ele desejar iniciar a busca, é necessário digitar 0 e enter.
 Nessa próxima etapa, o usuário precisa digitar as palavras que deseja buscar.
-Existem algumas restrições enquanto a busca, as palavras precisam ser enviadas uma a uma, não podem incluir nenhuma pontuação/acento(exemplo, se você deseja
+Existem algumas restrições enquanto a busca, as palavras precisam ser enviadas uma a uma, não podem incluir nenhuma pontuação/acento, e todas as letras precisam estar com letra minuscula(exemplo, se você deseja
 procurar pela palavra "Guarda-Chuva" deverá digitar no campo de busca a palavra "guardachuva"). Após cada inserção de palavra o usuário apertará a tecla
 enter e, caso deseja procurar uma nova palavra inseri-la seguindo as mesmas instruções da primeira e, caso deseja encerrar o programa, deverá apenas fecha-lo.
 
