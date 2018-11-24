@@ -2,7 +2,7 @@ INSTRUÇÕES PARA EXECUÇÃO DA MÁQUINA DE BUSCA:
 
 O Programa Maquina de Busca foi desenvolvido de forma que fosse o mais simples para o usuário utilizá-lo.
 Antes de executar o programa é necessário checar se o compilador tem suporte a versão C++11, visto que algumas bibliotecas (ex.: <regex>) precisam dela.
-Após a verificação da versão, o usuário precisa compilar o arquivo "trab.cpp".
+Após a verificação da versão, o usuário precisa compilar o arquivo "trab.cpp" junto com o arquivo "Funcoes.cpp".
 Uma janela de comandos se abrirá junto com as instruções para a busca de certas palavras em certos arquivos.
 Na primeira etapa, é necessário que o usuário insira o nome do arquivo(com a extensão incluída, exemplo: hamlet.txt, e o arquivo precisa estar no mesmo diretório
 do programa, no caso o arquivo trab.cpp) e caso ele deseja incluir novos arquivos
