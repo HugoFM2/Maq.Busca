@@ -16,7 +16,7 @@ void AbrirArquivo(set <string> &words,string filename){
 void SubstituirString(string &Palavra) {
 	regex pontuacao("(\\.|,|0|1|2|3|4|5|6|7|8|9|!|-|\\$|\\@|\\&|\\*|\\%|\\#|\\+|\\_|\\?)"); // detecta as pontuacoes
 	Palavra = regex_replace(Palavra,pontuacao,""); // Remove pontuacao (ponto, virgula, hifen e exclamacao)
-	for(int j = 0; j<Palavra.length();j++){ // Transformar todas as letras maiusculas em minusculas
+	for(int j = 0; j < Palavra.length();j++){ // Transformar todas as letras maiusculas em minusculas
 		Palavra[j] = tolower(Palavra[j]);
 	}
 }
