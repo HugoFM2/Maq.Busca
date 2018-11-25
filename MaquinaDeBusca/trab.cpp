@@ -1,6 +1,7 @@
 #include "Funcoes.h"
 
 
+
 int main(){
 
   string filename,line, palavra;
@@ -20,7 +21,6 @@ int main(){
  	}
 
     cout<<"\n-> DIGITE A PALAVRA QUE DESEJA BUSCAR: \n\n";
-
  	    while(cin>>palavra){               //funciona enquanto palavras a serem buscadas forem inseridas
  		     PrintMap(summary,palavra);
 	    }
