@@ -1,5 +1,3 @@
-#include "Funcoes.h"
-
 void AbrirArquivo(set <string> &words,string filename){
 	try{ // parte protegia do codigo, caso o arquivo nao esteja aberto entra no catch
 	fstream file (filename);
