@@ -2,7 +2,9 @@
 Trabalho Pratico 2 de PDSII
 
   Thallys Felipe Gonçalves Barbosa - 2018080622 - PDS2 - TF1
+  
   Hugo Ferreira Marques - 2018014573 - PDS2 - TF1
+
 
 INSTRUÇÕES PARA EXECUÇÃO DA MÁQUINA DE BUSCA:
 
