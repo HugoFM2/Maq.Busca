@@ -2,7 +2,7 @@
 Trabalho Pratico 2 de PDSII
 
   Thallys Felipe Gonçalves Barbosa - 2018080622 - PDS2 - TF1
-  
+
   Hugo Ferreira Marques - 2018014573 - PDS2 - TF1
 
 
@@ -11,7 +11,7 @@ INSTRUÇÕES PARA EXECUÇÃO DA MÁQUINA DE BUSCA:
 O Programa Maquina de Busca foi desenvolvido de forma que fosse o mais simples para o usuário utilizá-lo.
 
 Antes de executar o programa é necessário checar se o compilador tem suporte a versão C++11, visto que algumas bibliotecas (ex.: regex) precisam dela.
-Após a verificação da versão, o usuário precisa compilar o arquivo "trab.cpp" junto com o arquivo "Funcoes.cpp", ambos encontrados na pasta MaquinaDeBusca.
+Após a verificação da versão, o usuário precisa compilar o arquivo "trab.cpp" junto com o arquivo "Funcoes.cpp"(Conforme o capitulo 11 do livro), ambos encontrados na pasta MaquinaDeBusca.
 Uma janela de comandos se abrirá junto com as instruções para a busca de certas palavras em certos arquivos.
 
 Na primeira etapa, é necessário que o usuário insira o nome do arquivo(com a extensão incluída, exemplo: hamlet.txt, e o arquivo precisa estar no mesmo diretório
