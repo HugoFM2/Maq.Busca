@@ -1,5 +1,6 @@
 #include "Funcoes.h"
 
+
 int main(){
 
   string filename,line, palavra;
@@ -15,11 +16,11 @@ int main(){
 		AbrirArquivo(words,filename);
 		SubstituirSet(words);
     SetToMap(words,summary,filename);
-		words.clear();                                      //limpa o set "words" para que n�o confunda as palavras de um arquivo com de outro
+		words.clear();                               //limpa o set "words" para que n�o confunda as palavras de um arquivo com de outro
  	}
 
     cout<<"\n-> DIGITE A PALAVRA QUE DESEJA BUSCAR: \n\n";
- 	    while(cin>>palavra){                           //funciona enquanto palavras a serem buscadas forem inseridas
+ 	    while(cin>>palavra){                       //funciona enquanto palavras a serem buscadas forem inseridas
  		     PrintMap(summary,palavra);
 	    }
 	return 0;
